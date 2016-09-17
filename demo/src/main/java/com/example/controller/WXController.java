@@ -21,6 +21,7 @@ public class WXController {
 		logger.info("signature : " + signature);
 		logger.info("timestamp : " + timestamp);
 		logger.info("nonce : " + nonce);
+		logger.info("nonce : " + nonce);
 		
 		
 		if(echostr != null && echostr.length() > 1){
