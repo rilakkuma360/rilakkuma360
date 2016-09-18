@@ -32,7 +32,7 @@ public class MsgServiceImpl implements MsgService{
 		case "2":
 			response.setMsgType(WeixinConstant.RESPONSE_MSGTYPE_IMAGE);
 			ResponseImageModel image = new ResponseImageModel();
-			image.setMediaId("iYx0ZQZEvGPkvcsumSANHmzIlvGQnaRPd7bhDrUFbPLrqB9i-gYr4TTD-oF6FRiC");
+			image.setMediaId("RCVB9U5zNBH8kbMXxnd2rUnFo3GyLxKvpXlf2vkE3rEpcHox0DvrGRIs6_h04bMV");
 			response.setImage(image);
 			break;
 			
