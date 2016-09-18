@@ -92,7 +92,7 @@ public class MsgServiceImpl implements MsgService{
 			break;	
 			
 		case "5":
-			String url = "http://180.166.162.188/wx/oauth2";
+			String url = "http://123.56.218.65/wx/oauth2";
 			String urlencode = null;
 			try {
 				urlencode = URLEncoder.encode(url, "utf-8");
