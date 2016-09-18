@@ -57,6 +57,7 @@ public class WXController {
 
 			// 2图片消息
 			case WeixinConstant.REQUEST_MSGTYPE_IMAGE:
+				System.out.println(model.getMediaId());
 				break;
 
 			// 3语音消息
