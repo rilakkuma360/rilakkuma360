@@ -1,5 +1,7 @@
 package com.example.wx.service.msg;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -89,8 +91,17 @@ public class MsgServiceImpl implements MsgService{
 			response.setArticles(articles4);
 			break;	
 			
-		case "5":	
-			String oauthUrl = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe80020daf3678c5b&redirect_uri=http://180.166.162.188/oauth2&response_type=code&scope=snsapi_base&state=zl#wechat_redirect";
+		case "5":
+			String url = "http://180.166.162.188/wx/oauth2";
+			String urlencode = null;
+			try {
+				urlencode = URLEncoder.encode(url, "utf-8");
+				System.out.println(urlencode);
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			String oauthUrl = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe80020daf3678c5b&redirect_uri=" +urlencode+ "&response_type=code&scope=snsapi_base&state=zl#wechat_redirect";
 			response.setMsgType(WeixinConstant.RESPONSE_MSGTYPE_TEXT);
 			response.setContent("<a href=\"" +oauthUrl +"\">单击这里体验oauth授权</a>");
 			break;
