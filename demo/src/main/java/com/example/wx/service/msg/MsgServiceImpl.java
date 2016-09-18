@@ -101,7 +101,7 @@ public class MsgServiceImpl implements MsgService{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			String oauthUrl = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe80020daf3678c5b&redirect_uri=" +urlencode+ "&response_type=code&scope=snsapi_base&state=zl#wechat_redirect";
+			String oauthUrl = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe80020daf3678c5b&redirect_uri=" +urlencode+ "&response_type=code&scope=snsapi_userinfo&state=zl#wechat_redirect";
 			response.setMsgType(WeixinConstant.RESPONSE_MSGTYPE_TEXT);
 			response.setContent("<a href=\"" +oauthUrl +"\">单击这里体验oauth授权</a>");
 			break;
