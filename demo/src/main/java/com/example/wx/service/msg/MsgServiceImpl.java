@@ -45,7 +45,7 @@ public class MsgServiceImpl implements MsgService{
 			ResponseArticleModel item = new ResponseArticleModel();
 			item.setTitle("测试单图文");
 			item.setDescription("测试单图文Description");
-			item.setPicUrl("http://www.qqpk.cn/Article/UploadFiles/201501/20150113144931897.jpg");
+			item.setPicUrl("http://pic29.nipic.com/20130506/3822951_102005116000_2.jpg");
 			item.setUrl("www.baidu.com");
 			itemList.add(item);
 			articles.setArticles(itemList);
@@ -61,28 +61,28 @@ public class MsgServiceImpl implements MsgService{
 			ResponseArticleModel item41 = new ResponseArticleModel();
 			item41.setTitle("1111");
 			item41.setDescription("重要的事情说3遍");
-			item41.setPicUrl("http://www.qqpk.cn/Article/UploadFiles/201501/20150113144931897.jpg");
+			item41.setPicUrl("http://pic29.nipic.com/20130506/3822951_102005116000_2.jpg");
 			item41.setUrl("www.baidu.com");
 			itemList4.add(item41);
 			
 			ResponseArticleModel item42 = new ResponseArticleModel();
 			item42.setTitle("2222");
 			item42.setDescription("重要的事情说3遍");
-			item42.setPicUrl("http://diy.qqjay.com/u2/2014/1020/b8aaa504eeea60dfc513e4a4d67f60c2.jpg");
+			item42.setPicUrl("http://pic29.nipic.com/20130506/3822951_102005116000_2.jpg");
 			item42.setUrl("www.baidu.com");
 			itemList4.add(item42);
 			
 			ResponseArticleModel item43 = new ResponseArticleModel();
 			item43.setTitle("3333");
 			item43.setDescription("重要的事情说3遍");
-			item43.setPicUrl("http://tx.haiqq.com/uploads/allimg/140708/142F62318-42.jpg");
+			item43.setPicUrl("http://pic29.nipic.com/20130506/3822951_102005116000_2.jpg");
 			item43.setUrl("www.baidu.com");
 			itemList4.add(item43);
 			
 			ResponseArticleModel item44 = new ResponseArticleModel();
 			item44.setTitle("4444");
 			item44.setDescription("重要的事情说3遍");
-			item44.setPicUrl("http://tx.haiqq.com/uploads/allimg/140902/1QI54Z2-41.jpg");
+			item44.setPicUrl("http://pic29.nipic.com/20130506/3822951_102005116000_2.jpg");
 			item44.setUrl("www.baidu.com");
 			itemList4.add(item44);
 			
