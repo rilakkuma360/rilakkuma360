@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.controller;
+package com.example.web;
 
 import java.util.Date;
 import java.util.Map;
